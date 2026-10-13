@@ -1,0 +1,43 @@
+{
+  "synthesis_config": {
+    "method": "gaussian",
+    "epsilon": 1.0,
+    "delta": 1e-05,
+    "n_original": 1000,
+    "n_synthetic": 800
+  },
+  "privacy_metrics": {
+    "privacy_loss": [
+      0.00909090909090909,
+      1e-05
+    ],
+    "membership_inference_risk": {
+      "mean_difference": 100.34242005583803,
+      "std_difference": 30.52898590762408,
+      "kl_divergence": 1.0544883311816031,
+      "overall_risk_score": 43.97529809821457,
+      "risk_level": "High"
+    },
+    "remaining_budget": [
+      0.5,
+      5e-06
+    ]
+  },
+  "quality_metrics": {
+    "statistical_similarity": {
+      "mean_absolute_error": 29.194960224212156,
+      "std_absolute_error": 9.374432192941953,
+      "correlation_error": 0.3137995958676492,
+      "overall_quality": 0
+    },
+    "utility_preservation": {
+      "adjusted_rand_index": -0.0008602255089719774,
+      "utility_score": 0
+    }
+  },
+  "synthetic_data_shape": [
+    800,
+    10
+  ],
+  "timestamp": "2025-09-11T13:54:27.992477"
+}
